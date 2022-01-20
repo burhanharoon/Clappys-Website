@@ -1,0 +1,171 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Open Sans', serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: gilroy_extrabold;
+    src: url(assets/gilroy.ttf);
+}
+
+@font-face {
+    font-family: manrope3_bold;
+    src: url(assets/Manrope-Bold.otf);
+}
+
+@font-face {
+    font-family: manrope3_medium;
+    src: url(assets/Manrope-Medium.otf);
+}
+
+@font-face {
+    font-family: sweetpurple_regular;
+    src: url(assets/sweet%20purple.otf);
+}
+
+@font-face {
+    font-family: manrope3_semibold;
+    src: url(assets/Manrope-SemiBold.otf);
+}
+
+@font-face {
+    font-family: manrope3_extrabold;
+    src: url(assets/Manrope-ExtraBold.otf);
+}
+
+
+.gruppe188 .gruppe114 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    font-family: gilroy_extrabold, Arial;
+
+    padding: 0.7rem 0;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width: 40rem) {
+    .gruppe188 .gruppe114 {
+        flex-direction: column;
+    }
+}
+
+.gruppe188 .gruppe114 .introducingClappysTheNewPlatformForGamingCommunities {
+    text-align: center;
+}
+
+
+.gruppe188 .gruppe114 .gruppe5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.gruppe188 .gruppe114 .gruppe5 .rightArrow1 {
+    background-image: url("assets/rightArrow1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.navbar-lines{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.navbar-line__1, .navbar-line__2, .navbar-line__3 {
+    background-color: black;
+    width: 30px;
+    height: 4px;
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-navbar__headings {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-navbar__dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ellipse5, .ellipse6, .ellipse7 {
+    width: 4px;
+}
+
+.clappys {
+    font-size: 25.00px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: gilroy_extrabold, Arial;
+}
+
+.explore, .add, .advertise {
+    font-size: 19.00px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: manrope3_semibold, Arial;
+}
+
+.discord {
+    background-color: rgba(19, 160, 254, 1);
+    display: flex;
+    border-radius: 30px;
+    width: 269px;
+    height: 45px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.discord-logo {
+    width: 29px;
+    height: 29px;
+}
+
+.discord-title {
+    font-size: 19.00px;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-family: gilroy_extrabold, Arial;
+}
