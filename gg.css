@@ -276,3 +276,50 @@ h3 {
     width: 30px;
     height: 30px;
 }
+
+form {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+form input {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    background-color: rgba(238, 238, 230, 1);
+    height: 3rem;
+    width: 16rem;
+}
+
+form button {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 0 2rem;
+    background-color: rgba(255, 187, 0, 1);
+    font-size: 19.00px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: gilroy_extrabold, Arial;
+    height: 3rem;
+    width: 16rem;
+}
+
+@media screen and (max-width: 40rem) {
+    form {
+        flex-direction: column;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+    }
+}
