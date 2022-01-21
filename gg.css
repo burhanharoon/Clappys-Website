@@ -48,7 +48,6 @@ body {
     src: url(assets/Manrope-ExtraBold.otf);
 }
 
-
 .gruppe188 .gruppe114 {
 
     display: flex;
@@ -89,7 +88,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
 }
 
 .navbar-lines {
@@ -194,9 +192,7 @@ body {
 
 /* Clappys Tagline */
 
-.clappys-tagline {
-    margin: 2rem;
-}
+.clappys-tagline {}
 
 .clappys-tagline h1 {
     font-size: 40.00px;
@@ -231,7 +227,6 @@ body {
 /* Promotions */
 
 .promotions {
-    padding: 2rem;
     gap: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -355,7 +350,7 @@ form button {
 footer {
     background-color: black;
     color: white;
-    padding: 1rem 2rem;
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
@@ -461,5 +456,23 @@ footer {
 
     .footer {
         flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .navbar, .clappys-tagline, .promotions, footer {
+        padding: 3rem 16rem;
+    }
+
+    footer {
+        padding: 1rem 16rem;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .navbar, .clappys-tagline, .promotions, footer {
+        /* padding-left: 2rem;
+        padding-right: 2rem; */
+        padding: 2rem;
     }
 }
