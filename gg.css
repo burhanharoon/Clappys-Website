@@ -235,6 +235,7 @@ body {
     gap: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-content: center;
 }
 
 @media screen and (max-width: 40rem) {
@@ -242,20 +243,6 @@ body {
         gap: 1rem;
     }
 }
-
-.promotions-1, .promotions-2, .promotions-3 {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-@media screen and (max-width: 40rem) {
-    .promotions-1, .promotions-2, .promotions-3 {
-        gap: 1rem;
-        grid-template-columns: none;
-    }
-}
-
 
 
 .promotion {
@@ -304,6 +291,7 @@ form {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin: 0;
 }
 
 form input {
@@ -361,6 +349,7 @@ footer {
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
+    margin-top: 5rem;
 }
 
 .footer-tagline {
@@ -384,7 +373,6 @@ footer {
     font-family: manrope3_medium, Arial;
     gap: 10px;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
 }
 
@@ -413,14 +401,14 @@ footer {
 .footer-social-media div svg {
     fill: rgba(153, 153, 153, 1);
     box-shadow: none;
-    width: 30px;
+    width: 24px;
     height: 24.16px;
 }
 
 .footer-social-media_mobile div svg {
     fill: rgba(153, 153, 153, 1);
     box-shadow: none;
-    width: 30px;
+    width: 24px;
     height: 24.16px;
 }
 
@@ -433,6 +421,10 @@ footer {
         display: flex;
         justify-content: center;
 
+    }
+
+    .footer-links {
+        justify-content: center;
     }
 }
 
