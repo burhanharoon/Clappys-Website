@@ -234,13 +234,12 @@ body {
     padding: 2rem;
     gap: 2rem;
     display: grid;
-    grid-template-rows: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 @media screen and (max-width: 40rem) {
     .promotions {
         gap: 1rem;
-        grid-template-rows: none;
     }
 }
 
