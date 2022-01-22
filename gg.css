@@ -183,7 +183,7 @@ body {
 }
 
 @media screen and (max-width: 40rem) {
-    .navbar a {
+    .discord-link {
         display: none;
     }
 }
@@ -268,7 +268,7 @@ body {
 
 
 .promotion {
-    padding: 1rem 2.5rem;
+    padding: 1rem;
     background-color: rgba(238, 238, 230, 1);
     border-radius: 10px;
     display: flex;
@@ -294,6 +294,7 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .promotion h3 {
@@ -402,12 +403,12 @@ footer {
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
-    margin-top: 9rem;
+    margin-top: 10.9rem;
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1800px) {
     footer {
-        padding: 1rem 18rem;
+        padding: 1rem 19rem;
 
     }
 }
@@ -418,6 +419,7 @@ footer {
     font-style: normal;
     font-family: manrope3_bold, Arial;
     color: rgba(255, 255, 255, 0.8);
+    margin-bottom: -5px;
 }
 
 .footer {
@@ -448,6 +450,10 @@ footer {
     height: 7px;
 }
 
+.clappys-2022 {
+    color: #999 !important;
+}
+
 .careers {
     display: flex;
     gap: 5px;
@@ -455,7 +461,8 @@ footer {
 
 .footer-social-media {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+    position: relative;
 }
 
 .footer-social-media_mobile {
@@ -507,6 +514,14 @@ footer {
     -ms-transform-origin: center;
     -webkit-transform-origin: center;
     transform-origin: center;
+    position: absolute;
+    opacity: .8999999761581421;
+    left: 215px;
+    top: -20px;
+}
+
+.surface10654672 {
+    margin-right: 93px;
 }
 
 @media screen and (max-width: 40rem) {
