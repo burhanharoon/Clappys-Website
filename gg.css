@@ -408,7 +408,7 @@ footer {
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
-    margin-top: 8.5rem;
+    margin-top: 8.25rem;
 }
 
 @media screen and (min-width: 1800px) {
@@ -479,7 +479,26 @@ footer {
     fill: rgba(153, 153, 153, 1);
     box-shadow: none;
     width: 24px;
+    transition: fill 500ms ease;
     height: 24.16px;
+}
+
+.twitter svg:hover {
+    fill: #1DA1F2;
+}
+
+.instagram svg:hover {
+    fill: #3f729b;
+}
+
+.youtube svg:hover {
+    fill: #FF0000;
+
+}
+
+
+.facebook svg:hover {
+    fill: #4267B2
 }
 
 .footer-social-media_mobile div svg {
