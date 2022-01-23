@@ -319,11 +319,6 @@ a {
     gap: 1rem;
 }
 
-.two-promotions .promotion {
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
-
-}
 
 .single-promotion {
     padding: 1rem;
@@ -357,7 +352,8 @@ form {
 form input {
     border-radius: 10px;
     outline: none;
-    border: none;
+    /* border: none; */
+    border: 2px solid rgba(0, 0, 0, 0);
     background-color: rgba(238, 238, 230, 1);
     height: 3rem;
     width: 18rem;
