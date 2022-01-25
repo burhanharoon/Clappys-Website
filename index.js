@@ -1,8 +1,8 @@
-var toggleButton = document.querySelector('.toggle-button');
-var mobileNav = document.querySelector('.mobile-nav');
-var backdrop = document.querySelector('.backdrop');
+let toggleButton = document.querySelector('.toggle-button');
+let mobileNav = document.querySelector('.mobile-nav');
+let backdrop = document.querySelector('.backdrop');
 
-function closeModal() {
+const closeModal = () => {
     backdrop.classList.remove('open');
 }
 
